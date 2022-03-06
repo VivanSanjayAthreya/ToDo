@@ -16,8 +16,8 @@ function App() {
       <Router>
         <Header title="My ToDos List" searchBar={true} />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
+          <Route exact path="/ToDo/" element={<Home />} />
+          <Route exact path="ToDo/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>
